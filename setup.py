@@ -23,6 +23,7 @@ test_requirements = [
  ]
 
 setup(
+    name='pypowerup',
     author="Sophia Man Yang",
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
@@ -40,8 +41,7 @@ setup(
     long_description=readme + '\n\n' + history,
     long_description_content_type="text/markdown",
     include_package_data=True,
-    keywords='pypowerup',
-    name='pypoweup',
+    keywords='pypowerup',    
     packages=find_packages(include=['pypowerup']),
     setup_requires=setup_requirements,
     test_suite='tests',
