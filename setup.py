@@ -35,7 +35,6 @@ setup(
         'Programming Language :: Python :: 3.8',
     ],
     description="Power analysis tool for experimental and quasi-experimental designs",
-    },
     install_requires=requirements,
     license="BSD license",
     long_description=readme + '\n\n' + history,
