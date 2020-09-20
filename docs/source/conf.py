@@ -77,7 +77,7 @@ html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
 
 master_doc = 'index'
-source_suffix = ['.rst']
+source_suffix = ['.rst', '.md']
 
 html_theme_options = {
     'display_version': True,
@@ -94,7 +94,7 @@ html_theme_options = {
 }
 
 source_parsers = {
-    '.md': 'recommonmark.parser.CommonMarkParser',
+    # '.md': 'recommonmark.parser.CommonMarkParser',
 }
 
 
