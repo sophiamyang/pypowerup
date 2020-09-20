@@ -46,11 +46,6 @@ All the design and variable explanations are from this sheet.
 Individual Random Assignment Designs 
 ====================================
 
-.. _my-reference-label:
-
-Section to cross-reference
---------------------------
-
 .. toctree::
    :maxdepth: 2
  
