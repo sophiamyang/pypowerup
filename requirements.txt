@@ -1,5 +1,4 @@
 sphinx-markdown-tables
 nbsphinx
-git+https://github.com/readthedocs/sphinx-hoverxref@master
-
+sphinx-hoverxref
 
