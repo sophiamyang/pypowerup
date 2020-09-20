@@ -14,7 +14,7 @@ requirements = [
     'scipy',
     'numpy',
     'innerscope',
-    'sphinx_markdown_tables'
+    'sphinx-markdown-tables'
 ]
 
 setup_requirements = [ ]
