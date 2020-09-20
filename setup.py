@@ -13,8 +13,7 @@ with open('HISTORY.md') as history_file:
 requirements = [ 
     'scipy',
     'numpy',
-    'innerscope',
-    'sphinx-markdown-tables'
+    'innerscope'
 ]
 
 setup_requirements = [ ]
