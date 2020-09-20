@@ -62,6 +62,14 @@ J
 --------------------------
 Number of level 2 units or average Sample Size for Level 2. 
 
+K
+--------------------------
+Number of level 3 units or average Sample Size for Level 3. 
+
+L
+--------------------------
+Number of level 4 units. 
+
 .. _rho2:
 
 rho2

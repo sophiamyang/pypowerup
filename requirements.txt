@@ -3,3 +3,4 @@ nbsphinx
 sphinx-hoverxref
 pygments==2.6.1
 sphinx-rtd-theme
+ipython
