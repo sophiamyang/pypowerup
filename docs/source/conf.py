@@ -99,7 +99,7 @@ source_parsers = {
 
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'default'
+pygments_style = 'sphinx'
 
 # Options for sphinx-hoverxref options
 # ------------------------------------
