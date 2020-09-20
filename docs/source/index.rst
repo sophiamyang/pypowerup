@@ -56,9 +56,9 @@ This is the text of the section.
 It refers to the section itself, see :ref:`my-reference-label`.
 :ref:`available settings <my-reference-label>`
 
-:ref:`available settings <hoverxref>`
+:ref:`available settings <parameters>`
 
-This will :hoverxref:`show a floating window <hoverxref>` in the linked words.
+This will :hoverxref:`show a floating window <parameters>` in the linked words.
 
 
 .. toctree::
