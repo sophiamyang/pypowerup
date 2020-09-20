@@ -46,7 +46,19 @@ All the design and variable explanations are from this sheet.
 Individual Random Assignment Designs 
 ====================================
 
-This will :hoverxref:`show a floating window <hoverxref:hoverxref>` in the linked words.
+.. _my-reference-label:
+
+Section to cross-reference
+--------------------------
+
+This is the text of the section.
+
+It refers to the section itself, see :ref:`my-reference-label`.
+:ref:`available settings <my-reference-label>`
+
+:ref:`available settings <hoverxref>`
+
+This will :hoverxref:`show a floating window <hoverxref>` in the linked words.
 
 
 .. toctree::

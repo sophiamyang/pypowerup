@@ -101,4 +101,27 @@ source_parsers = {
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'default'
 
+# Options for sphinx-hoverxref options
+# ------------------------------------
 
+hoverxref_auto_ref = True
+hoverxref_role_types = {
+    "class": "tooltip",
+    "confval": "tooltip",
+    "hoverxref": "tooltip",
+    "mod": "tooltip",
+    "ref": "tooltip",
+}
+hoverxref_roles = ['command', 'reqmeta', 'setting', 'signal']
+
+
+def setup(app):
+    app.connect('autodoc-skip-member', maybe_skip_member)
+
+
+def maybe_skip_member(app, what, name, obj, skip, options):
+    if not skip:
+        # autodocs was generating a text "alias of" for the following members
+        # https://github.com/sphinx-doc/sphinx/issues/4422
+        return name in {'default_item_class', 'default_selector_class'}
+    return skip
