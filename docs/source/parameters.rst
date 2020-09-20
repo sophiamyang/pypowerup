@@ -24,10 +24,12 @@ alpha
 --------------------------
 Type I error, default 0.05 (recommended).
 
+
 .. _power:
+
+power
 --------------------------
 Statistical power, 1- Type II error, default 0.8 (recommended).
-
 
 .. _two_tailed:
 
@@ -52,4 +54,26 @@ Percent of variance in outcome explained by covariates, default=0.
 g
 --------------------------
 Number of covariates, default=0.
+
+.. _J:
+
+J
+--------------------------
+Number of level 2 units.
+
+.. _rho2:
+
+rho2
+--------------------------
+Proportion of variance in outcome between clusters.
+
+.. _omega2:
+
+omega2
+--------------------------
+Treatment effect heterogeneity:  variability in treatment effects across Level 2 units, standardized by the variability in the Level-2 outcome.  
+
+
+
+
 
