@@ -10,7 +10,8 @@ please specify your study design.
 
 n
 --------------------------
-Please specify your total sample size of both treatment and control group.
+Number of level 1 units or average Sample Size for Level 1. 
+For example, if the design is IRA, n is the total sample size of both treatment and control group.
 
 .. _es:
 
@@ -41,39 +42,77 @@ Whether it is a two-tailed test or a one-tailed test. default True (two-tailed t
 
 p
 --------------------------
-Proportion of the treatment sample :math:`\frac{n_T}{(n_T+n_C)}`, default 0.50 (i.e., equal samples size for treatment and control)
+Proportion of the treatment sample :math:`\frac{n_T}{(n_T+n_C)}`, default=0.50 (i.e., equal samples size for treatment and control)
 
 .. _r21:
 
 r21
 --------------------------
-Percent of variance in outcome explained by covariates, default=0.
+Proportion of variance in Level 1 outcome explained by the Level 1 covariates, default=0.
 
 .. _g:
 
 g
 --------------------------
-Number of covariates, default=0.
+Number of covariates at the highest level, default=0.
 
 .. _J:
 
 J
 --------------------------
-Number of level 2 units.
+Number of level 2 units or average Sample Size for Level 2. 
 
 .. _rho2:
 
 rho2
 --------------------------
-Proportion of variance in outcome between clusters.
+Proportion of variance in outcome among Level 2 units.
 
 .. _omega2:
 
 omega2
 --------------------------
-Treatment effect heterogeneity:  variability in treatment effects across Level 2 units, standardized by the variability in the Level-2 outcome.  
+Level 2 treatment effect heterogeneity:  variance in treatment effect across Level 2 units, standardized by the Level-2 outcome variance
 
+.. _r2t2:
 
+r2t2
+--------------------------
+Proportion of between block variance in treatment effect explained by Level 2 covariates
+
+.. _rho3:
+rho3
+--------------------------
+Proportion of variance in outcome among Level 3 units.
+
+.. _omega3:
+
+omega3
+--------------------------
+Level 3 treatment effect heterogeneity:  variance in treatment effect across Level 3 units, standardized by the Level-3 outcome variation.
+
+.. _r2t3:
+
+r2t3
+--------------------------
+Proportion of between block variance in treatment effect explained by Level 3 covariates.
+
+.. _rho4:
+rho4
+--------------------------
+Proportion of variance in outcome among Level 4 units.
+
+.. _omega3:
+
+omega4
+--------------------------
+Level 4 treatment effect heterogeneity:  variance in treatment effect across Level 4 units, standardized by the Level-4 outcome variation.
+
+.. _r2t4:
+
+r2t4
+--------------------------
+Proportion of between block variance in treatment effect explained by Level 4 covariates.
 
 
 
