@@ -1,4 +1,4 @@
 sphinx-markdown-tables
 nbsphinx
 sphinx-hoverxref
-
+pygments
