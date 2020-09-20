@@ -12,12 +12,10 @@ Simple Individual Random Assignment (IRA)
 
     from pypowerup import effect_size, power, sample_size
 
-.. code:: ipython3
+.. code:: python
 
     # effect size, i.e., minimum detectable effect sizes (MDES):
     effect_size(design='ira', n=787, power=0.8, alpha=0.05, two_tailed=True, p=0.5, r21=0, g=0)
-
-
 
 
 .. parsed-literal::
@@ -26,7 +24,7 @@ Simple Individual Random Assignment (IRA)
 
 
 
-.. code:: ipython3
+.. code:: python
 
     # sample size, i.e., minimum required samples sizes (MRSS):
     sample_size(design='ira', es=0.2, power=0.8, alpha=0.05, two_tailed=True, p=0.5, r21=0, g=0)
@@ -40,7 +38,7 @@ Simple Individual Random Assignment (IRA)
 
 
 
-.. code:: ipython3
+.. code:: python
 
     # power
     power(design='ira', es=0.2, n=787, alpha=0.05, two_tailed=True, p=0.5, r21=0, g=0)
@@ -55,21 +53,19 @@ Simple Individual Random Assignment (IRA)
 
 
 **Parameters for IRA:**
-:hoverxref:`show a floating window <parameters>`
-:ref:`design`
 
-============= =============== =============== =========
-Parameters    ``effect_size`` ``sample_size`` ``power``
-============= =============== =============== =========
-:ref:`design` ✓               ✓               ✓
-n             ✓                               ✓
-power         ✓               ✓               
-alpha         ✓               ✓               ✓
-two_tailed    ✓               ✓               ✓
-p             ✓               ✓               ✓
-r21           ✓               ✓               ✓
-g             ✓               ✓               ✓
-============= =============== =============== =========
+================== =============== =============== =========
+Parameters         ``effect_size`` ``sample_size`` ``power``
+================== =============== =============== =========
+:ref:`design`      ✓               ✓               ✓
+:ref:`n`           ✓                               ✓
+:ref:`power`       ✓               ✓               
+:ref:`alpha`       ✓               ✓               ✓
+:ref:`two_tailed`  ✓               ✓               ✓
+:ref:`p`           ✓               ✓               ✓
+:ref:`r21`         ✓               ✓               ✓
+:ref:`g`           ✓               ✓               ✓
+================== =============== =============== =========
 
 -  **design**: please specify your study design.
 

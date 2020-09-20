@@ -51,16 +51,6 @@ Individual Random Assignment Designs
 Section to cross-reference
 --------------------------
 
-This is the text of the section.
-
-It refers to the section itself, see :ref:`my-reference-label`.
-:ref:`available settings <my-reference-label>`
-
-:ref:`available settings <parameters>`
-
-This will :hoverxref:`show a floating window <parameters>` in the linked words.
-
-
 .. toctree::
    :maxdepth: 2
  
