@@ -117,6 +117,12 @@ r2t3
 --------------------------
 Proportion of between block variance in treatment effect explained by Level 3 covariates.
 
+.. _r24:
+
+r24
+--------------------------
+Proportion of variance in Level 4 outcome explained by Level 4 covariates.
+
 .. _rho4:
 rho4
 --------------------------
