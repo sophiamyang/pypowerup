@@ -70,6 +70,12 @@ L
 --------------------------
 Number of level 4 units. 
 
+.. _r22:
+
+r22
+--------------------------
+Proportion of variance in Level 2 outcome explained by Level 2 covariates.
+
 .. _rho2:
 
 rho2
@@ -87,6 +93,12 @@ Level 2 treatment effect heterogeneity:  variance in treatment effect across Lev
 r2t2
 --------------------------
 Proportion of between block variance in treatment effect explained by Level 2 covariates
+
+.. _r23:
+
+r23
+--------------------------
+Proportion of variance in Level 3 outcome explained by Level 3 covariates.
 
 .. _rho3:
 rho3
