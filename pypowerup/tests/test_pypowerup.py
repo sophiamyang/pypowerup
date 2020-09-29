@@ -1,4 +1,6 @@
+# fmt: off
 from pypowerup import effect_size, power, sample_size
+
 
 def test_pypowerup():
     assert round(effect_size('ira', n=400), 2) == 0.28
@@ -66,5 +68,3 @@ def test_pypowerup():
     assert round(effect_size(design = "its_nocompare", rho2=0.03, T=5, n=75, K=10, r22=0, tf=2, g=0),2) ==0.37
     assert round(effect_size(design = "its_wcompare", rho2=0.03, T=5, n=75, K=10, r22=0, tf=2, g=0, q=2),2) ==0.45
     assert sample_size(design = "its_wcompare", es=0.4, rho2=0.03, T=5, n=75, r22=0, tf=2, g=0, q=2, two_tailed=False) ==10
-
-

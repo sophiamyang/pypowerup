@@ -14,8 +14,8 @@ install:
 script:
   - pip install -e .
   - pytest
-  # - black pypowerup --check --diff  # TODO: uncomment
-  # - flake8  # TODO: uncomment
+  - black pypowerup --check --diff
+  - flake8
 
 notifications:
   email: false
