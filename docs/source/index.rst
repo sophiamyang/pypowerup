@@ -45,11 +45,6 @@ To use the functions:
 
    from pypowerup import effect_size, power, sample_size
 
-Credit and disclaimer
-=====================
-This document is heavily built on https://www.causalevaluation.org/uploads/7/3/3/6/73366257/powerup.xlsm. 
-All the design and variable explanations are from this sheet.
-
 Individual Random Assignment Designs 
 ====================================
 
@@ -78,6 +73,10 @@ Quasi-experimental Designs
    RD
    ITS
 
+Credit and disclaimer
+=====================
+This document is heavily built on https://www.causalevaluation.org/uploads/7/3/3/6/73366257/powerup.xlsm. 
+All the design and variable explanations are from this sheet.
 
 
 References
