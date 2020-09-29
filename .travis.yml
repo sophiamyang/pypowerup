@@ -7,16 +7,15 @@ python:
   - 3.6
 
 # Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
+install:
+  - pip install pytest innerscope scipy numpy flake8 black
 
-
-install: 
-  - pip install pytest innerscope scipy numpy 
-
-  
 # Command to run tests, e.g. python setup.py test
-script: 
+script:
   - pip install -e .
   - pytest
+  # - black pypowerup --check --diff  # TODO: uncomment
+  # - flake8  # TODO: uncomment
 
 notifications:
   email: false
