@@ -1,9 +1,9 @@
-.. poweruppy documentation master file, created by
+.. pypowerup documentation master file, created by
    sphinx-quickstart on Sat Sep 19 18:14:23 2020.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to PowerUpPy's documentation!
+Welcome to pypowerup's documentation!
 =====================================
 
 
@@ -22,28 +22,28 @@ Authors
 =====================
 Sophia Man Yang, Nianbo Dong, Rebecca Maynard
 
-PowerUpPy
+pypowerup
 =====================
-``PowerUpPy`` is the Python implementation for the research article "PowerUp!: A Tool for Calculating Minimum Detectable 
+``pypowerup`` is the Python implementation for the research article "PowerUp!: A Tool for Calculating Minimum Detectable 
 Effect Sizes and Minimum Required Sample Sizes for Experimental and Quasi-experimental Design Studies (Dong & Maynard, 2013)". It is a 
 power analysis tool for 21 experimental and quasi-experimental designs. 
 
 
-Given study design, ``PowerUpPy`` computes minimum detectable effect sizes ``effect_size``, power ``power``, 
+Given study design, ``pypowerup`` computes minimum detectable effect sizes ``effect_size``, power ``power``, 
 and minimum required samples sizes ``sample size``.
 
-To install PowerUpPy, run this command in your terminal:
+To install pypowerup, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install poweruppy
+    $ pip install pypowerup
 
 
 To use the functions: 
 
 .. code:: python
 
-   from poweruppy import effect_size, power, sample_size
+   from pypowerup import effect_size, power, sample_size
 
 Individual Random Assignment Designs 
 ====================================
