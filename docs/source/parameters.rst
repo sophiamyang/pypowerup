@@ -42,7 +42,7 @@ Whether it is a two-tailed test or a one-tailed test. default True (two-tailed t
 
 p
 --------------------------
-Proportion of the treatment sample :math:`\frac{n_T}{(n_T+n_C)}`, default=0.50 (i.e., equal samples size for treatment and control)
+Proportion of the treatment sample, default=0.50 (i.e., equal samples size for treatment and control)
 
 .. _r21:
 
@@ -140,5 +140,40 @@ r2t4
 --------------------------
 Proportion of between block variance in treatment effect explained by Level 4 covariates.
 
+.. _design_effect:
+
+design_effect
+--------------------------
+Default = 2.75. Please change this value according to your design.
+
+"The design effect represents the increase in the sample size that is required under 
+the RD (regression discontinuity) design to produce impact estimates with the
+same level of statistical precision as the RA (random assignment) design."
 
 
+Schochet, P. Z. (2008). Technical methods report: Statistical power for regression 
+discontinuity designs in education evaluations (NCEE 2008-4026). Washington, 
+DC: National Center for Education Evaluation and Regional Assistance, Institute of Education Sciences, U.S.
+
+.. _tf:
+
+tf
+--------------------------
+Year in which the outcomes are to be compared 
+(i.e., "0" would indicate the year that treatment occurs; 
+"1" would indicate the first year following the treatment).
+
+.. _q:
+
+q
+--------------------------
+Ratio of comparison units to experimental units (q).
+(# comparison schools / # program schools)  at block level.
+
+.. _T:
+
+T
+--------------------------
+T (the number of baseline years).
+The number of years prior to intervention for which the baseline, 
+or pre-intervention, trend is established.
