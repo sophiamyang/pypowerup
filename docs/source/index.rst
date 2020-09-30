@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to pypowerup's documentation!
+Welcome to PyPowerUp's documentation!
 =====================================
 
 
@@ -22,17 +22,17 @@ Authors
 =====================
 Sophia Man Yang, Nianbo Dong, Rebecca Maynard
 
-pypowerup
+PyPowerUp
 =====================
-``pypowerup`` is the Python implementation for the research article "PowerUp!: A Tool for Calculating Minimum Detectable 
+``PyPowerUp`` is the Python implementation for the research article "PowerUp!: A Tool for Calculating Minimum Detectable 
 Effect Sizes and Minimum Required Sample Sizes for Experimental and Quasi-experimental Design Studies (Dong & Maynard, 2013)". It is a 
 power analysis tool for 21 experimental and quasi-experimental designs. 
 
 
-Given study design, ``pypowerup`` computes minimum detectable effect sizes ``effect_size``, power ``power``, 
+Given study design, ``PyPowerUp`` computes minimum detectable effect sizes ``effect_size``, power ``power``, 
 and minimum required samples sizes ``sample size``.
 
-To install pypowerup, run this command in your terminal:
+To install PyPowerUp, run this command in your terminal:
 
 .. code-block:: console
 
