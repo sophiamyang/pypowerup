@@ -4,9 +4,14 @@
 [![Build Status](https://img.shields.io/travis/sophiamyang/pypowerup.svg)](https://travis-ci.org/sophiamyang/pypowerup)
 [![Docs](https://readthedocs.org/projects/pypowerup/badge/?version=latest)](https://pypowerup.readthedocs.io/en/latest/)
 
+
 ``PyPowerUp`` is the Python implementation for the research article "PowerUp!: A Tool for Calculating Minimum Detectable 
 Effect Sizes and Minimum Required Sample Sizes for Experimental and Quasi-experimental Design Studies (Dong & Maynard, 2013)". It is a 
 power analysis tool for 21 experimental and quasi-experimental designs.
+
+Documentation
+-------
+https://pypowerup.readthedocs.io/en/latest/
 
 
 
